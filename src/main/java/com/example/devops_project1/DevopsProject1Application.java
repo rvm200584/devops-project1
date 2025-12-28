@@ -17,5 +17,10 @@ public class DevopsProject1Application {
 	public String home() {
 		return "<h1>Welcome TCS DevOps Architect</h1>";
 	}
+	
+	@GetMapping("/")
+	public String about() {
+		return "<h1>I'm learning evOps Architect</h1>";
+	}
 
 }
